@@ -11,6 +11,8 @@
 
 body {
   font-size: 1.6rem;
+
+  background-color: #edf2ff;
 }
 
 .container {
@@ -24,12 +26,31 @@ body {
   width: 100%;
 }
 
-h1 {
+.container .avatar {
+  border-radius: 50%;
+  border: 4px solid #4263eb;
+
+  width: 10rem;
+  height: 10rem;
+  padding: 0.37rem;
+}
+
+.container h1 {
   margin-top: 2.4rem;
   margin-bottom: 0.8rem;
 }
 
-ul {
+.container ul {
   list-style: none;
   margin-top: 4.8rem;
+}
+
+.container ul li a {
+  height: 5.3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #4263eb;
 }
