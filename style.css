@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-/* body.dark-blue {
+body.dark-blue {
   --bg-color: #00082f;
   --text-color: #ffffff;
 }
@@ -28,7 +28,14 @@ body.pink {
   --text-color: #1f000b;
   --primary-color: #d6336c;
   --primary-color-dark: #a61e4d;
-}*/
+}
+
+body.dark-pink {
+  --bg-color: #1f000b;
+  --text-color: #fff0f6;
+  --primary-color: #d6336c;
+  --primary-color-dark: #a61e4d;
+}
 
 body {
   font-size: 1.6rem;
@@ -41,7 +48,7 @@ body {
   text-align: center;
   width: 30rem;
 
-  margin: 6rem auto;
+  margin: 5.5rem auto;
 }
 
 .container img {
@@ -102,6 +109,11 @@ ul li a:hover {
 
 li + li {
   margin-top: 1.6rem;
+}
+
+ul .logos {
+  width: 2rem;
+  height: 2rem;
 }
 
 footer {
